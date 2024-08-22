@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Sanjay Sargam</h1>
-<h2 align="center">Google Summer of Code 2024</h2>
+<h2 align="center">Tablet & Chromebook UI - Google Summer of Code 2024</h2>
 <h3 align="center">
   <a href="https://github.com/ankidroid/Anki-Android">AnkiDroid</a>
 </h3>
@@ -24,10 +24,11 @@
 
 ## 📚 Project Overview
 
-[**AnkiDroid**](https://github.com/ankidroid/Anki-Android) is the Android companion app for [Anki](https://github.com/ankitects/anki), a powerful flashcards application that aids in learning and memorizing various topics.
+[**AnkiDroid**](https://github.com/ankidroid/Anki-Android) is an Android app for [Anki](https://github.com/ankitects/anki), a powerful flashcards application that aids in learning and memorizing various topics.
 
 ### 🎯 **Project Goal**
-The goal of my GSoC project was to enhance the usability and accessibility of AnkiDroid on larger devices like tablets and Chromebooks. The focus was on optimizing the user interface and improving support for keyboard and mouse interactions, thereby delivering a more seamless experience for users.
+My work focuses on enhancing the user experience of AnkiDroid on larger devices like tablets and Chromebooks. The project aims to improve usability, readability, and overall aesthetics, ensuring AnkiDroid remains intuitive and efficient across various devices. Specific tasks include converting the DeckPicker screen to feature a unified menu, highlighting selected preference settings, integrating the NoteEditor into the CardBrowser, implementing a Previewer within the CardTemplateEditor, adding mouse support, and introducing keyboard shortcuts for efficient navigation and interaction. Throughout the proposal, a strong emphasis is placed on user-centric design and usability enhancements to elevate the overall AnkiDroid experience on tablets and Chromebooks.
+
 
 ---
 
@@ -37,14 +38,26 @@ The goal of my GSoC project was to enhance the usability and accessibility of An
 
 Unified the DeckPicker screen's menu for a streamlined user experience.
 
+**Before:**
 <p align="center">
-    <img src="media/deckpicker_menu.png" alt="DeckPicker Screen">
+    <img src="media/deckpicker_menu_before.png" alt="DeckPicker Screen Before">
+</p>
+
+**After:**
+<p align="center">
+    <img src="media/deckpicker_menu_after.png" alt="DeckPicker Screen After">
 </p>
 
 ### 2. **Highlight Selected Preference Setting**
 
 Improved user experience by highlighting the selected preference setting.
 
+**Before:**
+<p align="center">
+    <img src="media/highlight_preference_before.png" alt="Highlighted Preference Setting">
+</p>
+
+**After:**
 <p align="center">
     <img src="media/highlight_preference.png" alt="Highlighted Preference Setting">
 </p>
@@ -53,6 +66,12 @@ Improved user experience by highlighting the selected preference setting.
 
 Integrated a TemplatePreviewerFragment into the CardTemplateEditor for real-time preview of card templates, enhancing usability and efficiency.
 
+**Before:**
+<p align="center">
+    <img src="media/card-template-editor_before.jpeg" alt="Card Template Editor">
+</p>
+
+**After:**
 <p align="center">
     <img src="media/card-template-editor.jpeg" alt="Card Template Editor">
 </p>
@@ -61,6 +80,12 @@ Integrated a TemplatePreviewerFragment into the CardTemplateEditor for real-time
 
 Incorporated the NoteEditor directly into the CardBrowser, making note editing more seamless.
 
+**Before:**
+<p align="center">
+    <img src="media/cardbrowser_before.jpeg" alt="Card Browser with NoteEditor">
+</p>
+
+**After:**
 <p align="center">
     <img src="media/cardbrowser.png" alt="Card Browser with NoteEditor">
 </p>
